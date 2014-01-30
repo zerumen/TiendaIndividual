@@ -22,16 +22,16 @@
                     <div id="menu">
                         <h5>Categories</h5>
                         <ul>
-                            <li>Opcion1</li>
-                            <li>Opcion2</li>
-                            <li>Opcion3</li>
-                            <li>Opcion4</li>
-                            <li>Opcion5</li>
-                            <li>Opcion6</li>
-                            <li>Opcion1</li>
-                            <li>Opcion2</li>
-                            <li>Opcion3</li>
-                            <li>Opcion3</li>
+                            <li>Wifi USB</li>
+                            <li>Antennas</li>
+                            <li>Packs</li>
+                            <li>Accessories</li>
+                            <li>Access Points</li>
+                            <li>Network</li>
+                            <li>IP Cams</li>
+                            <li>Pc Components</li>
+                            
+                          
                             <li>
                                 <form class="form-search" id="form1" name="buscador" method="post" >
 
