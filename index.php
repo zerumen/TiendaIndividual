@@ -26,6 +26,16 @@
                             <li>Opcion4</li>
                             <li>Opcion5</li>
                             <li>Opcion6</li>
+                            <li>Opcion1</li>
+                            <li>Opcion2</li>
+                            <li>Opcion3</li>
+                            <li>Opcion3</li>
+                            <li>
+                <form class="form-search" id="form1" name="buscador" method="post" >
+                
+                <input type="text" placeholder="Busca..">
+                <button type="submit" class="btn-default" name="search" id="search">Buscar</button>
+            </form></li>
                         </ul>
                         
                     </div>
