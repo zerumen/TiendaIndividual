@@ -10,7 +10,9 @@
         <div id="topbar">
             <div id="logotopbar"></div>
             <div id="carro"></div>
-            <div id="user"></div>
+            <div id="user">
+            </div>
+            
         </div>
         <div id="container">
             <div id="main">
@@ -37,10 +39,10 @@
             </div>
             <div id="footer">
                 <div id="linkfooter">
-                    <a >Legal Terms |</a>
-                    <a >Security |</a>
-                    <a >Privacy |</a>
-                    <a >Rate</a>
+                    <a>Legal Terms |</a>
+                    <a>Security |</a>
+                    <a>Privacy |</a>
+                    <a>Rate</a>
                 </div>
                 <div id="iconfooter">
                     <img class="iconfooter" src="Img/icon/android2.png">
