@@ -16,8 +16,8 @@
         </div>
         <div id="container">
             <div id="main">
-                <div id="columniz">
-                    <div id="menuiz">
+                <div id="menuarriba">
+                    <div id="menu">
                         <h5>Categories</h5>
                         <ul>
                             <li>Opcion1</li>
