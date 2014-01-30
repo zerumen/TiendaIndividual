@@ -51,22 +51,37 @@ ul{
 #columnder{
     float: right;
     width: 80%;
-    border: solid 1px #e7e7e7;
+    border: solid 1px #00f75e;
     margin-bottom: 20px;
     margin-top: 70px;
     margin-right: 15px;
     height: 600px;
 }
 #columniz{
-   
+    border: solid 1px #00f75e;
     float: left;
     width: 15%;
     height: 600px;
     margin-top: 70px;
     margin-left: 15px;
+
 }
-#menuiz{
-    border: solid 1px #e7e7e7;
+
+#carro{
+    background-image: url(../Img/carro.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    float:right;
+    width:8%;
+    height: 50px; 
+}
+#user{
+    background-image: url(../Img/icon/user.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    float:right;
+    width:7%;
+    height: 50px; 
 }
 
 .iconfooter{

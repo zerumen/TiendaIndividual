@@ -4,10 +4,13 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Wifi Store</title>
         <link href="css/Style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
         <div id="topbar">
             <div id="logotopbar"></div>
+            <div id="carro"></div>
+            <div id="user"></div>
         </div>
         <div id="container">
             <div id="main">
