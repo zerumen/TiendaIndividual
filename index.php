@@ -35,8 +35,8 @@
                             <li>
                 <form class="form-search" id="form1" name="buscador" method="post" >
                 
-                <input type="text" placeholder="Busca..">
-                <button type="submit" class="btn btn-success btn-xs" name="search" id="search">Buscar</button>
+                <input type="text" placeholder="Search..">
+                <button type="submit" class="btn btn-success btn-xs" name="search" id="search">Search</button>
             </form></li>
                         </ul>
                         
