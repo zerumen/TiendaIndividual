@@ -5,6 +5,8 @@
         <title>Wifi Store</title>
         <link href="css/Style.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
         <div id="topbar">
@@ -34,7 +36,7 @@
                 <form class="form-search" id="form1" name="buscador" method="post" >
                 
                 <input type="text" placeholder="Busca..">
-                <button type="submit" class="btn-default" name="search" id="search">Buscar</button>
+                <button type="submit" class="btn btn-success btn-xs" name="search" id="search">Buscar</button>
             </form></li>
                         </ul>
                         
