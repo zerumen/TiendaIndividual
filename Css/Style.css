@@ -110,7 +110,12 @@ h5{
     height: 50px; 
 }
 
-
+#container #main #columnder #containsSlider{
+    border:solid 1px #e7e7e7;
+    width: 955px;
+    height: 300px;
+    margin: 0px 0px 0px 0px;
+}
 
 
 .iconfooter{
