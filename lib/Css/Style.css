@@ -51,7 +51,7 @@ h5{
     float:left;
     height: 50px;
     width: 350px;
-    background-image: url(../Img/logo.png);
+    background-image: url(../../Img/logo.png);
     background-repeat:no-repeat;
 }
 #footer{
@@ -78,7 +78,7 @@ h5{
 
 
 #carro{
-    background-image: url(../Img/carro.png);
+    background-image: url(../../Img/carro.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     float:right;
@@ -86,7 +86,7 @@ h5{
     height: 50px; 
 }
 #carro:hover{
-    background-image: url(../Img/carro1.png);
+    background-image: url(../../Img/carro1.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     float:right;
@@ -94,7 +94,7 @@ h5{
     height: 50px;
 }
 #user{
-    background-image: url(../Img/icon/user.png);
+    background-image: url(../../Img/icon/user.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     float:right;
@@ -102,7 +102,7 @@ h5{
     height: 50px; 
 }
 #user:hover{
-    background-image: url(../Img/icon/user1.png);
+    background-image: url(../../Img/icon/user1.png);
     background-size: 50px 50px;
     background-repeat: no-repeat;
     float:right;

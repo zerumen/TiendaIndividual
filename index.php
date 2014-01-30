@@ -3,11 +3,11 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Wifi Store</title>
-        <link href="css/Style.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
-        <script src="jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+        <link href="lib/Css/Style.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+        <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="topbar">
