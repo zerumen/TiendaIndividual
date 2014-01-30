@@ -6,6 +6,7 @@
         Purpose of the stylesheet follows.
 */
 
+
 body{
     font-family: Verdana, Geneva, sans-serif;
     margin: 0;
@@ -46,6 +47,26 @@ ul{
     font-weight: bold;
     background: -moz-linear-gradient(top, #00f75e 0%, #596a72 9%, #cedce7 99%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00f75e), color-stop(9%,#596a72), color-stop(99%,#cedce7)); /* Chrome,Safari4+ */
+}
+#columnder{
+    float: right;
+    width: 80%;
+    border: solid 1px #e7e7e7;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-right: 15px;
+    height: 600px;
+}
+#columniz{
+   
+    float: left;
+    width: 15%;
+    height: 600px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+#menuiz{
+    border: solid 1px #e7e7e7;
 }
 
 .iconfooter{

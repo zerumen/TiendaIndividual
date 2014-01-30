@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>PC Store</title>
+        <title>Wifi Store</title>
         <link href="css/Style.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
@@ -49,7 +49,7 @@
                 <div class="clear"></div>
                 <div id="copyright">
                     <p>
-                         Pc Store 2014. Spain. All rights reserved.<br />
+                         Wifi Store 2014. Spain. All rights reserved.<br />
                         
                     </p>
                 </div>
