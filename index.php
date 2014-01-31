@@ -14,7 +14,9 @@
         <div id="topbar">
             <div id="logotopbar"></div>
             <div id="carro">
-                
+                <div id="carrito">
+                    
+                </div>
             </div>
             <div id="user">
                  <form id="inicioForm" role="form"  >
