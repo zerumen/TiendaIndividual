@@ -8,6 +8,26 @@
         <link href="lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen" />
         <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
         <script src="lib/bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" language="javascript">
+            
+              $(document).ready(function() {
+
+                $.ajax({
+                    dataType: 'json',
+                    url: 'phps/productos.php',
+                    success: function(data) {
+                        var datos = '<table>';
+                        $.each(data, function(index) {
+                            datos += '<div class="producto"  onclick=""><p id="precio">' + data[index].precio + ' &euro;</p><img id="imgProd" src="imagenes/imagenesProductos/' + data[index].Imagen + '.jpg"><div id="descripcion"><p>' + data[index].Nombre + '<br>' + data[index].Descripcion + '</p></div><a  ><div class="carrito" onclick="descripcion(' + data[index].idProducto + ')" data-toggle="modal" data-target="#myModalDescripcion"><img src="imagenes/imagenesStatic/carro.png"></div></a></div>';
+                            datos += '</table>';
+                        });
+                        $('#listaProducto').html(datos);
+                    }
+                });
+            });
+            
+            
+        </script>
         
     </head>
     <body>
@@ -95,6 +115,11 @@
                             </a>
                         </div>
 
+                    </div>
+                    <div id="listaproducto">
+                        
+                        
+                        
                     </div>
 
                 </div>
