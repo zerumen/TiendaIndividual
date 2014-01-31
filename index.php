@@ -13,8 +13,24 @@
     <body>
         <div id="topbar">
             <div id="logotopbar"></div>
-            <div id="carro"></div>
+            <div id="carro">
+                
+            </div>
             <div id="user">
+                 <form id="inicioForm" role="form"  >
+                            <div class="form-group" id="inicioSesion">
+                                <strong>Login</strong>
+
+                                <p>Nick</p>
+                                <input class="form-control" name="nick">
+                                <p>Password</p>
+                                <input class="form-control" type="password" name="pass">
+                                <a class="btn btn-success" href="javascript:validar()">login</a>
+
+                                <button  class="btn btn-primary" data-toggle="modal" data-target="#myModal">Create Account
+                                </button>
+
+                                </div></form>
             </div>
 
         </div>
