@@ -19,22 +19,22 @@ ul{
     text-decoration: none;
     list-style: none;
     height: 40px;
-     background: -moz-linear-gradient(top, #00f75e 0%, #596a72 9%, #cedce7 99%); /* FF3.6+ */
+    background: -moz-linear-gradient(top, #00f75e 0%, #596a72 9%, #cedce7 99%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00f75e), color-stop(9%,#596a72), color-stop(99%,#cedce7));
-   
+
 }
 li{
     float:left;
-    padding:10px;
-    height: 40px;
+    padding:1%;
+    height: 38px;
 }
 h5{
     border-top: solid 3px #596a72;
     border-bottom: solid 3px #596a72;
-    padding: 5px;
+    padding: 0.75%;
     text-align: center;
     font-weight: bolder;
-  
+
 }
 
 
@@ -42,22 +42,22 @@ h5{
     position: fixed;
     top: 0;
     width: 100%;
-    height: 55px;
+    height: 8.2%;
     z-index: 200;
     background: -moz-linear-gradient(top, #cedce7 1%, #596a72 91%, #00f75e 99%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#cedce7), color-stop(91%,#596a72), color-stop(99%,#00f75e)); /* Chrome,Safari4+ */
 }
 #logotopbar{
     float:left;
-    height: 50px;
-    width: 350px;
+    height: 100%;
+    width: 35%;
     background-image: url(../../Img/logo.png);
     background-repeat:no-repeat;
 }
 #footer{
     clear: both;
     width: 100%;
-    height: 100px;
+    height: 35%;
     margin-top: 60px;
     text-align: center;
     font-size: 12px;
@@ -73,7 +73,7 @@ h5{
     margin-top: 10px;
     margin-right: 25px;
     height: 800px;
-    
+
 }
 
 
@@ -83,7 +83,7 @@ h5{
     background-repeat: no-repeat;
     float:right;
     width:8%;
-    height: 50px; 
+    height: 100%; 
 }
 #carro:hover{
     background-image: url(../../Img/carro1.png);
@@ -91,7 +91,7 @@ h5{
     background-repeat: no-repeat;
     float:right;
     width:8%;
-    height: 50px;
+    height: 100%;
 }
 #user{
     background-image: url(../../Img/icon/user.png);
@@ -99,7 +99,7 @@ h5{
     background-repeat: no-repeat;
     float:right;
     width:7%;
-    height: 50px; 
+    height: 100%; 
 }
 #user:hover{
     background-image: url(../../Img/icon/user1.png);
@@ -107,16 +107,22 @@ h5{
     background-repeat: no-repeat;
     float:right;
     width:7%;
-    height: 50px; 
+    height: 100%; 
 }
 
 #container #main #columnder #containsSlider{
-    border:solid 1px #e7e7e7;
-    width: 955px;
-    height: 300px;
-    margin: 0px 0px 0px 0px;
+    border:solid 3px #00f75e;
+    width: 80%;
+    height: 282px;
+    margin: 0px auto 0px auto;
 }
 
+#container #main #menuarriba #menu li:hover{
+
+
+    background: -moz-linear-gradient(top, #596a72 0%, #cedce7 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#596a72), color-stop(100%,#cedce7)); /* Chrome,Safari4+ */
+}
 
 .iconfooter{
     width: 30px;

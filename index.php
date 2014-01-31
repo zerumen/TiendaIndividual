@@ -6,8 +6,9 @@
         <link href="lib/Css/Style.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
         <link href="lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet" type="text/css" media="screen" />
-        <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
         <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+        <script src="lib/bootstrap/js/bootstrap.js"></script>
+        
     </head>
     <body>
         <div id="topbar">
