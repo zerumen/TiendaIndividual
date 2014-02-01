@@ -1,6 +1,6 @@
 <?php
 
-    $db = mysql_connect("localhost","root","") or die("Connection Error: " . mysql_error());
+    $db = mysql_connect("localhost","root","root") or die("Connection Error: " . mysql_error());
     mysql_select_db("wifi") or die("Error conecting to db.");
     
 	$SQL = "SELECT * from productos;"; 
@@ -9,7 +9,7 @@
 	$i=0;
     while($fila = mysql_fetch_array($result,MYSQL_ASSOC)) 
 	{
-		$datos[$i]=array('idProducto'=>$fila["idProducto"],'Nombre'=>$fila["Nombre"],'Descripcion'=>$fila["Descripcion"],'precio'=>$fila["precio"],'Imagen'=>$fila["Imagen"]);
+		$datos[$i]=array('id'=>$fila["id"],'nombre'=>$fila["nombre"],'precio'=>$fila["precio"],'descripcion'=>$fila["descripcion"],'idCategoria'=>$fila['idCategoria']);
 		$i++;
 	}
 		

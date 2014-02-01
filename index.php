@@ -11,17 +11,18 @@
         <script type="text/javascript" language="javascript">
             
               $(document).ready(function() {
-
+                       
                 $.ajax({
                     dataType: 'json',
                     url: 'phps/productos.php',
+                    type: 'GET',
                     success: function(data) {
                         var datos = '<table>';
                         $.each(data, function(index) {
-                            datos += '<div class="producto"  onclick=""><p id="precio">' + data[index].precio + ' &euro;</p><img id="imgProd" src="imagenes/imagenesProductos/' + data[index].Imagen + '.jpg"><div id="descripcion"><p>' + data[index].Nombre + '<br>' + data[index].Descripcion + '</p></div><a  ><div class="carrito" onclick="descripcion(' + data[index].idProducto + ')" data-toggle="modal" data-target="#myModalDescripcion"><img src="imagenes/imagenesStatic/carro.png"></div></a></div>';
-                            datos += '</table>';
-                        });
-                        $('#listaProducto').html(datos);
+                         datos += '<div class="col-md-4 col-sm-4">' + data[index].id + '<br>' + data[index].nombre + '<br><img src=Img/productos/' + data[index].id +'.jpg'+' height=50% width=50%><br>' + data[index].precio + '<br>' + data[index].descripcion +'<br>' + '</div>';
+                    });
+                    datos += '</div>';
+                        $('#listaproducto').html(datos);
                     }
                 });
             });
