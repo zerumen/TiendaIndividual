@@ -14,12 +14,12 @@
                        
                 $.ajax({
                     dataType: 'json',
-                    url: 'phps/productos.php',
+                    url: 'phps/Indexproductos.php',
                     type: 'GET',
                     success: function(data) {
                         var datos = '<h4>Ofertas</h4>';
                         $.each(data, function(index) {
-                         datos += '<div id="listaproducto" class="col-md-4 col-sm-4">'+ data[index].nombre + '<br><img src=Img/productos/' + data[index].id +'.jpg'+' height=50% width=50%><br>' + data[index].precio +' &euro;'+ '<br>' + data[index].descripcion +'<br>' + '</div>';
+                         datos += '<div class="listaproducto">'+ data[index].nombre + '<br><img src=Img/productos/' + data[index].id +'.jpg'+' height=50% width=50%><br>' + data[index].precio +' &euro;'+ '<br>' + data[index].descripcion +'<br>' + '</div>';
                     });
                     datos += '</div>';
                         $('#listaproducto').html(datos);
