@@ -156,14 +156,10 @@ h5{
     background: -moz-linear-gradient(top, #596a72 0%, #cedce7 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#596a72), color-stop(100%,#cedce7)); /* Chrome,Safari4+ */
 }
-#listaProducto {
-	float:left;
-	width:auto;
-	height:auto;
-	margin:15px 20px 10px 15px;
-	padding:10px;
-	border-radius:20px;
-	background-color:#FFFFFF;
+#listaproducto {
+	
+	border:solid 1px #596a72;
+        border-radius: 5px;
 	
 }
 
