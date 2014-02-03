@@ -14,7 +14,7 @@
 
                 $.ajax({
                     dataType: 'json',
-                    url: 'phps/IndexProductos.php',
+                    url: 'phps/IndexProducto.php',
                     type: 'GET',
                     success: function(data) {
                         var datos = '<h4>Ofertas</h4>';
