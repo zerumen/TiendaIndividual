@@ -1,9 +1,9 @@
 <?php
 
-    $db = mysql_connect("localhost","root","root") or die("Connection Error: " . mysql_error());
+    $db = mysql_connect("localhost","root","") or die("Connection Error: " . mysql_error());
     mysql_select_db("wifi") or die("Error conecting to db.");
     
-	$SQL = "SELECT * from productos;"; 
+	$SQL = "SELECT * from productos where oferta=1;"; 
     $result = mysql_query( $SQL ) or die("Couldn t execute query.".mysql_error());
 	//$datos[];
 	$i=0;
