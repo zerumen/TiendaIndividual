@@ -9,51 +9,67 @@
         <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
         <script src="lib/bootstrap/js/bootstrap.js"></script>
         <script type="text/javascript" language="javascript">
-            
-              $(document).ready(function() {
-                       
+
+            $(document).ready(function() {
+
                 $.ajax({
                     dataType: 'json',
-                    url: 'phps/Indexproductos.php',
+                    url: 'phps/IndexProductos.php',
                     type: 'GET',
                     success: function(data) {
                         var datos = '<h4>Ofertas</h4>';
                         $.each(data, function(index) {
-                         datos += '<div class="listaproducto">'+ data[index].nombre + '<br><img src=Img/productos/' + data[index].id +'.jpg'+' height=50% width=50%><br>' + data[index].precio +' &euro;'+ '<br>' + data[index].descripcion +'<br>' + '</div>';
-                    });
-                    datos += '</div>';
+                            datos += '<div class="listaproducto">' + data[index].nombre + '<br><img src=Img/productos/' + data[index].id + '.jpg' + ' height=50% width=50%><br>' + data[index].precio + ' &euro;' + '<br>' + data[index].descripcion + '<br>' + '</div>';
+                        });
+                        datos += '</div>';
                         $('#listaproducto').html(datos);
                     }
                 });
             });
-            
-            
+            $(document).ready(function() {
+
+                $.ajax({
+                    dataType: 'json',
+                    url: 'phps/IndexCategorias.php',
+                    type: 'GET',
+                    success: function(data) {
+                        var datos = '<h4>Categories</h4><ul>';
+                        $.each(data, function(index) {
+                            datos += '<li>' + data[index].nombre + '</li>';
+                        });
+                        datos += '</ul>'
+                        $('#menu').html(datos);
+                    }
+                });
+            });
+
+
         </script>
-        
+
     </head>
     <body>
         <div id="topbar">
             <div id="logotopbar"></div>
             <div id="carro">
                 <div id="carrito">
-                    
+
                 </div>
             </div>
             <div id="user">
-                 <form id="inicioForm" role="form"  >
-                            <div class="form-group" id="inicioSesion">
-                                <strong>Login</strong>
+                <form id="inicioForm" role="form"  >
+                    <div class="form-group" id="inicioSesion">
+                        <strong>Login</strong>
 
-                                <p>Nick</p>
-                                <input class="form-control" name="nick">
-                                <p>Password</p>
-                                <input class="form-control" type="password" name="pass">
-                                <a class="btn btn-success" href="javascript:validar()">login</a>
+                        <p>Nick</p>
+                        <input class="form-control" name="nick">
+                        <p>Password</p>
+                        <input class="form-control" type="password" name="pass">
+                        <a class="btn btn-success" href="javascript:validar()">login</a>
 
-                                <button  class="btn btn-primary" data-toggle="modal" data-target="#myModal">Create Account
-                                </button>
+                        <button  class="btn btn-primary" data-toggle="modal" data-target="#myModal">Create Account
+                        </button>
 
-                                </div></form>
+                    </div></form>
             </div>
 
         </div>
@@ -61,25 +77,11 @@
             <div id="main">
                 <div id="menuarriba">
                     <div id="menu">
-                        <h5>Categories</h5>
-                        <ul>
-                            <li>Wifi USB</li>
-                            <li>Antennas</li>
-                            <li>Packs</li>
-                            <li>Accessories</li>
-                            <li>Access Points</li>
-                            <li>Network</li>
-                            <li>IP Cams</li>
-                            <li>Pc Components</li>
 
 
-                            <li>
-                                <form class="form-search" id="form1" name="buscador" method="post" >
 
-                                    <input type="text" placeholder="Search..">
-                                    <button type="submit" class="btn btn-success btn-xs" name="search" id="search">Search</button>
-                                </form></li>
-                        </ul>
+
+
 
                     </div>
 
@@ -118,9 +120,9 @@
 
                     </div>
                     <div id="listaproducto">
-                        
-                        
-                        
+
+
+
                     </div>
 
                 </div>
@@ -149,5 +151,6 @@
                 </div>
 
             </div>
+        </div>
     </body>
 </html>
