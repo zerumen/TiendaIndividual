@@ -164,6 +164,7 @@ h5{
     width:250px;
     height: 100%; 
     display:block;
+    
 }
 
 #inicioSesion{
@@ -209,9 +210,10 @@ h5{
     width: 200px;
     height: 250px;
     float:left;
-
 }
-
+.listaproducto:hover{
+     box-shadow:0 0 5px 5px #888; 
+}
 .iconfooter{
     width: 30px;
     height: 30px;
