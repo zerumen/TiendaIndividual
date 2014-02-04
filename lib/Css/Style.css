@@ -114,7 +114,39 @@ h5{
     display:block;
 
 }
-
+#exit{
+    background-image: url(../../Img/icon/door2.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    float:right;
+    width:8%;
+    height: 100%; 
+}
+#exit:hover{
+    background-image: url(../../Img/icon/door9.png); 
+}
+#tools{
+    background-image: url(../../Img/icon/tools2.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    float:right;
+    width:8%;
+    height: 100%; 
+}
+#tools:hover{
+    background-image: url(../../Img/icon/tools6.png); 
+}
+#msg{
+    background-image: url(../../Img/icon/email2.png);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    float:right;
+    width:8%;
+    height: 100%; 
+}
+#msg:hover{
+    background-image: url(../../Img/icon/email21.png); 
+}
 
 #user{
     background-image: url(../../Img/icon/user.png);
@@ -175,7 +207,7 @@ h5{
     border-radius: 10px;
     margin:2px;
     width: 200px;
-    height: 200px;
+    height: 250px;
     float:left;
 
 }
